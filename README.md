@@ -7,3 +7,5 @@
 - 运行开发服务器：`python manage.py runserver [0:8000]`
 
 - 创建应用：`python manage.py startapp app01`
+
+- 初始化数据库：`python manage.py migrate`
