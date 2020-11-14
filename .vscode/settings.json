@@ -1,0 +1,31 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 3,
+            "database": "school",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "school",
+            "password": "123456",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3308,
+            "driver": "MySQL",
+            "name": "school-orm",
+            "database": "school",
+            "username": "root",
+            "password": "123456"
+        }
+    ]
+}

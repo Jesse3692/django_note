@@ -1,0 +1,2 @@
+use school;
+show TABLES;

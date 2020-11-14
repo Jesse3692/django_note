@@ -8,4 +8,10 @@
 
 - 创建应用：`python manage.py startapp app01`
 
-- 初始化数据库：`python manage.py migrate`
+- 初始化数据库（测试连接）：`python manage.py migrate`
+
+- 为 model 生成迁移文件（app01）：`python manage.py makemigrations app01`
+
+- 查看迁移的 sql 语句：`python manage.py sqlmigrate app01 0001`
+
+- 应用数据库迁移：``
