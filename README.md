@@ -79,3 +79,13 @@ Quit the server with CONTROL-C.
     "version": "4.9.0"
 }
 ```
+
+## 使用数据库
+
+安装系统依赖
+
+`sudo apt-get install python3-dev default-libmysqlclient-dev build-essential`
+
+安装mysqlclient
+
+`pip install mysqlclient==2.2.2`
